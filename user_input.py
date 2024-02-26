@@ -1,0 +1,6 @@
+name = input("What is your name?")
+age = input("How old are you?")
+location = input("Where do you live?")
+# print("My name is ",name,"I am",age,"years old I live in",location)
+#print (f"My name is {name} I am {age} years old I live in {location}")
+print ("My name is {} I am {} years old I live in {}".format(name,age,location))
